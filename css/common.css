@@ -1,0 +1,102 @@
+@import url('https://fonts.font.im/css2?family=Noto+Serif&family=Noto+Serif+JP:wght@500&family=Noto+Serif+SC:wght@500&display=swap');
+
+/* 问题编号 */
+.badge {
+    position: relative;
+    top: -2px;
+}
+
+/* 问题列表 */
+.list-group-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* 日期格式 */
+.list-group-item .date,
+.blockquote .date {
+    font-size: 0.6rem;
+    color: #666;
+    position: relative;
+    bottom: 1px;
+}
+
+/* Ajax错误信息 */
+pre {
+    padding: 5px 10px 0px 10px;
+    margin-bottom: 0rem;
+}
+
+/* 语言切换 */
+.nav-link {
+    color: #666;
+}
+
+.nav-link:hover {
+    color: #444;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #444;
+    font-weight: bold;
+}
+
+/* 主页LOGO */
+.nav-item.logo {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#logo {
+    position: relative;
+    bottom: 12px;
+    width: 38px;
+}
+
+/* 问题内容 */
+.question {
+    box-shadow: 0 0 8px rgb(0 0 0 / 0.08);
+    margin: 20px;
+}
+
+.question .content {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.zh {
+    font-family: 'Noto Serif SC', serif;
+}
+
+.ja {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.en {
+    font-family: 'Noto Serif', serif;
+}
+
+.question .note {
+    color: #888;
+    font-size: x-small;
+}
+
+/* 上一题、下一题 */
+#pager button {
+    font-size: small;
+    color: #666;
+    font-weight: bold;
+}
+
+/* 跳转到随机问题按钮 */
+#random {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: large;
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    font-weight: bold;
+}
