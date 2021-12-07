@@ -28,7 +28,7 @@ pre {
 }
 
 /* 语言切换 */
-#navbar  {
+#navbar {
     padding-top: 15px;
 }
 
@@ -89,6 +89,12 @@ pre {
     font-size: small;
     color: #666;
     font-weight: bold;
+}
+
+/* 底部页码 */
+#pager .badge {
+    position: relative;
+    top: 3px;
 }
 
 /* 跳转到随机问题按钮 */
