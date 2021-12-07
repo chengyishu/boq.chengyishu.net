@@ -1,22 +1,31 @@
 {
 	"qid": 6,
-	"date": "0000-00-00",
+	"date": "2021-12-06",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果你发现一首诗歌，它优美动人，深深打动了你，但它是电脑创作的，你有何感受？<br>如果你知道用不了一百年时间，智能机器就会拥有自我意识，比人类更聪明更有创造力，你作何感受？为什么？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "心から感動した悲しくも美しい詩が、コンピューターによって創られたとわかったらどうしますか？<br>1世紀の間に、コンピューターが自意識に目覚め、人間よりも賢く、より優れた創造性を持つようになるとわかったらどう思いますか？それはなぜですか？",
 		"note": [
-			""
+			"悲しい。かなしい。",
+			"詩。し/うた。漢詩。かんし。詩歌。しいか/しか。",
+			"創る。つくる。",
+			"世紀。せいき。",
+			"自意識。じいしき。",
+			"目覚め。めざめ。",
+			"賢い。かしこい。",
+			"優れる。すぐれる。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "How would you react if you learned that a sad and beautiful poem that touched you deeply had been written by a computer?<br>How would you feel if you knew that within a century, intelligent machines would be self-aware and much smarter and more creative than humans? Why?",
 		"note": [
-			""
+			"century [ˈsentʃərɪ] 世纪，百年。",
+			"intelligent [ɪnˈtelɪdʒənt] 聪慧的，智能的。",
+			"self-aware [ˌselfəˈwɛə] 自知的，有自我意识的。"
 		]
 	}
 }

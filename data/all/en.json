@@ -8,5 +8,30 @@
         "id": 2,
         "date": "2021-12-02",
         "content": "What would you do if your 6-year-old daughter's favorite toy, a talking doll, started trying to convince her that she needed a new friend — the next doll in the company's line?"
+    },
+    {
+        "id": 3,
+        "date": "2021-12-03",
+        "content": "If you had to be obsessed with money, sex, sports, religion, or food, which one would you choose?"
+    },
+    {
+        "id": 4,
+        "date": "2021-12-04",
+        "content": "Ignoring all financial considerations, would you rather spend the next 5 years confined to an urban mecca like New York City, or a beautiful, isolated town on the California coast?"
+    },
+    {
+        "id": 5,
+        "date": "2021-12-05",
+        "content": "Would you rather watch an Olympics that outlawed performance-enhancing drugs or one that embraced them and let athletes use medical pit crews to jack up their performances?"
+    },
+    {
+        "id": 6,
+        "date": "2021-12-06",
+        "content": "How would you react if you learned that a sad and beautiful poem that touched you deeply had been written by a computer?<br>How would you feel if you knew that within a century, intelligent machines would be self-aware and much smarter and more creative than humans? Why?"
+    },
+    {
+        "id": 7,
+        "date": "2021-12-07",
+        "content": "What is the most serious law you've broken doing something you thought was morally right, wouldn't hurt anyone, or was no one's business but yours? How bad would the punishment have been if you'd been caught and given the maximum sentence?<br>If you were on a jury, would you be willing to convict a person for something you didn't think should be considered a crime?"
     }
 ]

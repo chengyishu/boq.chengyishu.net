@@ -1,6 +1,10 @@
 // 问题编号范围
+var days = moment().diff(moment('2021-11-30'), 'days');
+if (days > 291) {
+    days = 291
+}
 const x = 1;
-const y = 291;
+const y = days;
 
 $(function () {
 

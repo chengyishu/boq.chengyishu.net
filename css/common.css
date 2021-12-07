@@ -107,4 +107,5 @@ pre {
     bottom: 3%;
     right: 5%;
     font-weight: bold;
+    z-index: 100;
 }
