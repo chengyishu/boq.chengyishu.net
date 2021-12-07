@@ -3,5 +3,10 @@
         "id": 1,
         "date": "2021-12-01",
         "content": "Technology has become a part of us. Would you rather lose the use of all motorized vehicles, all telecommunication devices and computers, or one of your hands?"
+    },
+    {
+        "id": 2,
+        "date": "2021-12-02",
+        "content": "What would you do if your 6-year-old daughter's favorite toy, a talking doll, started trying to convince her that she needed a new friend — the next doll in the company's line?"
     }
 ]
