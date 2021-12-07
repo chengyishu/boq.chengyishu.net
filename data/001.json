@@ -1,22 +1,29 @@
 {
 	"qid": 1,
-	"date": "0000-00-00",
+	"date": "2021-12-01",
 	"zh": {
-		"content": "待续 ...",
+		"content": "科技已经成为我们生活中的重要组成部分。如果让你选择，你愿意放弃使用所有机动车辆、通讯设备和电脑，还是愿意失去一只手？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "テクノロジーはわたしたちの一部になっています。自動車、通信機器、コンピューターなどがすべて使えなくなるのと、片手を失うのとではどちらがまだマシですか？",
 		"note": [
-			""
+			"一部。いちぶ。",
+			"片手。かたて。",
+			"失う。うしなう。",
+			"マシ（増し）。形動。どちらかといえば他よりすぐれているさま。もう少し増しな案はないか＝没有更好的办法吗。これでもないより増しだ＝就是这也比没有强。",
+			"優れる。すぐれる。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "Technology has become a part of us. Would you rather lose the use of all motorized vehicles, all telecommunication devices and computers, or one of your hands?",
 		"note": [
-			""
+			"motorized [ˈməʊtəraɪzd] 装有发动机的，机动化的。",
+			"vehicles [ˈvi:əklz] 运载工具，车辆。",
+			"telecommunication [ˌtelikəˌmjuːnɪˈkeɪʃn] 电信。",
+			"devices [dɪ'vaɪsɪz] 设备。"
 		]
 	}
 }
