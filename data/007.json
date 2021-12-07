@@ -1,22 +1,40 @@
 {
 	"qid": 7,
-	"date": "0000-00-00",
+	"date": "2021-12-07",
 	"zh": {
-		"content": "待续 ...",
+		"content": "你在坚持做符合道德标准、不会伤害他人、与他人无关只涉及自己的事情时，曾违反过最严重的法律是什么？如果被捕并处以最高刑罚，这种惩罚会有多严重？<br>如果你是陪审团的一员，而且认为被告的行为不应视为犯罪，你会认定他有罪吗？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "道徳的に問題なく、誰も傷つけず、ほかの人に迷惑にもならない、と思ってやったのに実は法律に違反していたもっとも重大なことはなんですか？もし捕まって、最高刑を科されたとしたら、どんな刑になっていたでしょう？<br>あなたが陪審員の1人だとします。あなた個人が被告は無罪だと考えているときに、陪審員として被告に有罪判決を下すことができますか？",
 		"note": [
-			""
+			"傷。きず。",
+			"迷惑。めいわく。",
+			"重大な。じゅうだいな。",
+			"捕まる。つかまる。被捕。",
+			"刑。けい。",
+			"科する。かする。定罪处刑，判处。",
+			"陪審員。ばいしんいん。",
+			"個人。こじん。",
+			"被告。ひこく。",
+			"無罪。むざい。",
+			"有罪。ゆうざい。",
+			"判決。はんけつ。",
+			"下す。くだす。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "What is the most serious law you've broken doing something you thought was morally right, wouldn't hurt anyone, or was no one's business but yours? How bad would the punishment have been if you'd been caught and given the maximum sentence?<br>If you were on a jury, would you be willing to convict a person for something you didn't think should be considered a crime?",
 		"note": [
-			""
+			"serious [ˈsɪəriəs] 严重的。严肃的，认真的。",
+			"morally [ˈmɒrəli] 道德上，道义上。",
+			"punishment [ˈpʌnɪʃmənt] 惩罚。",
+			"sentence [ˈsentəns] 判刑。",
+			"jury [ˈdʒʊəri] 陪审席，陪审团。",
+			"convict [kənˈvɪkt, ˈkɒnvɪkt] 定罪。",
+			"crime [kraɪm] 罪行，犯罪。"
 		]
 	}
 }

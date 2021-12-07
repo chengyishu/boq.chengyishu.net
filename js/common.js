@@ -1,6 +1,10 @@
 // 问题编号范围
+var days = moment().diff(moment('2021-11-30'), 'days');
+if (days > 291) {
+    days = 291
+}
 const x = 1;
-const y = 291;
+const y = days;
 
 $(function () {
 
@@ -25,7 +29,7 @@ $(function () {
                 dataType: 'json',
                 success: function (question) {
                     // 使用模板
-                    var template = '<div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content zh"><p>{{zh}} <span class="zh date">- {{zhd}}</span></p></blockquote></div><div class="card-footer note">{{zhn}}</div></div><div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content ja"><p>{{ja}} <span class="ja date">- {{jad}}</span></p></blockquote></div><div class="card-footer note">{{jan}}</div></div><div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content en"><p>{{en}} <span class="en date">- {{end}}</span></p></blockquote></div><div class="card-footer note">{{enn}}</div></div><div id="pager"class="row text-center"><div class="col"><button id="lastQ"type="button"class="btn btn-light">«上一题</button></div><div class="col pt-2"><span class="badge bg-dark">{{qid}}</span></div><div class="col small"><button id="nextQ"type="button"class="btn btn-light">下一题»</button></div></div>';
+                    var template = '<div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content zh"><p>{{zh}} <span class="zh date">- {{zhd}}</span></p></blockquote></div><div class="card-footer note">{{zhn}}</div></div><div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content ja"><p>{{ja}} <span class="ja date">- {{jad}}</span></p></blockquote></div><div class="card-footer note">{{jan}}</div></div><div class="card text-dark bg-light question"><div class="card-body"><blockquote class="blockquote mb-0 content en"><p>{{en}} <span class="en date">- {{end}}</span></p></blockquote></div><div class="card-footer note">{{enn}}</div></div><div id="pager"class="row text-center"><div class="col"><button id="lastQ"type="button"class="btn btn-light">«上一题</button></div><div class="col"><span class="badge bg-dark">{{qid}}</span></div><div class="col small"><button id="nextQ"type="button"class="btn btn-light">下一题»</button></div></div>';
                     var html = template
                         .replaceAll('{{zh}}', question.zh.content)
                         .replaceAll('{{zhd}}', formatDate(question.date, 'zh'))

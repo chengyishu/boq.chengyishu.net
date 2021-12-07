@@ -1,22 +1,23 @@
 {
 	"qid": 2,
-	"date": "0000-00-00",
+	"date": "2021-12-02",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果你六岁的女儿最喜欢的玩具是一个会说话的洋娃娃，那么当它开始尝试说服你女儿她想要交一个新朋友，也就是购买同一家公司生产的另一个玩偶时，你会怎么做？",
 		"note": [
-			""
+			"原书的中文译文有误，上述译文为站长重译。原译文：“如果你六岁的女儿最喜欢的玩具是一个会说话的玩偶，那么当你想要说服你女儿交一个新朋友，也就是购买同一家公司同一个产品系列的另一个玩偶，你会怎么做？”"
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "6歳になるあなたの娘のお気に入りは、 おしゃべり人形です。もしその人形が、同じメーカーの別の人形を友だちに欲しい、と娘を説得しはじめたらどうしますか？",
 		"note": [
-			""
+			"説得。せっとく。よく話して、相手に納得させること。劝说，说服。AとBを説得する＝说服B去做A。",
+			"納得。なっとく。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "What would you do if your 6-year-old daughter's favorite toy, a talking doll, started trying to convince her that she needed a new friend — the next doll in the company's line?",
 		"note": [
-			""
+			"convince [kənˈvɪns] 使相信，说服。"
 		]
 	}
 }

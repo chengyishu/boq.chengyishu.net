@@ -28,7 +28,7 @@ pre {
 }
 
 /* 语言切换 */
-#navbar  {
+#navbar {
     padding-top: 15px;
 }
 
@@ -91,6 +91,12 @@ pre {
     font-weight: bold;
 }
 
+/* 底部页码 */
+#pager .badge {
+    position: relative;
+    top: 3px;
+}
+
 /* 跳转到随机问题按钮 */
 #random {
     border-radius: 100px;
@@ -101,4 +107,5 @@ pre {
     bottom: 3%;
     right: 5%;
     font-weight: bold;
+    z-index: 100;
 }

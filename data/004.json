@@ -1,22 +1,28 @@
 {
 	"qid": 4,
-	"date": "0000-00-00",
+	"date": "2021-12-04",
 	"zh": {
-		"content": "待续 ...",
+		"content": "不考虑财务问题，如果未来五年内你只能住在一个地方，你会选择纽约这样的大都市，还是加州海岸上一个美丽但与世隔绝的小镇？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "経済的な問題はないとして、5年間、他にどこへも行かずに暮らすとしたら、大都会ニューヨークとカリフォルニアの海べりの辺鄙な町のどちらを選びますか？",
 		"note": [
-			""
+			"大都会。だいとかい。",
+			"海べり。べり 即 へり（縁）的浊化。",
+			"辺鄙。へんぴ。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "Ignoring all financial considerations, would you rather spend the next 5 years confined to an urban mecca like New York City, or a beautiful, isolated town on the California coast?",
 		"note": [
-			""
+			"confined [kənˈfaɪnd] 空间受限的，被禁闭的，受限制的。",
+			"urban [ˈɜːbən] 城市的，都市的。",
+			"mecca [ˈmekə] 麦加。胜地，吸引很多人前往的地方。",
+			"isolated [ˈaɪsəleɪtɪd] 隔离的，偏远的。",
+			"coast [kəʊst] 海滨，海岸，沿海。"
 		]
 	}
 }
