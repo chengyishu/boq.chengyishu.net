@@ -1,22 +1,30 @@
 {
 	"qid": 10,
-	"date": "0000-00-00",
+	"date": "2021-12-10",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果你的心脏机能彻底受损，再无修复的可能，但移植经过基因改造的猪心脏，你还能再活几年，你愿意尝试吗？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "あなたの心臓はぼろぼろで、もう治療もできない状態にあります。ただし、遺伝子操作を施したブタの心臓を移植すればあと何年かは元気でいられるとしたら、あなたはどうしますか？",
 		"note": [
-			""
+			"ぼろぼろ。破破烂烂的，破败不堪的。vs ごろごろ。骨碌碌，滚转貌。",
+			"治療。ちりょう。",
+			"A状態にある。＝in the state of A.＝处于A状态。",
+			"施す。ほどこす。",
+			"移植。いしょく。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "If your heart were damaged beyond repair, but you could regain your health for a few more years by getting a heart transplant from a genetically engineered pig, would you?",
 		"note": [
-			""
+			"damaged ['dæmɪdʒd] 被损坏。",
+			"beyond repair [bɪˈjɒnd riˈpɛə] 无法修复。",
+			"regain [rɪˈgeɪn] 重获，重回，恢复，收复。",
+			"transplant [trænsˈplɑːnt,ˈtrænsplɑːnt] 移植。",
+			"genetically [dʒə'netɪklɪ] 通过基因作用地。"
 		]
 	}
 }
