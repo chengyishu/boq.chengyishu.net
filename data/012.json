@@ -1,22 +1,23 @@
 {
 	"qid": 12,
-	"date": "0000-00-00",
+	"date": "2021-12-12",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果给你十万美元，你愿意增重40磅（约36斤）并保持三年吗？需要给你多少钱你才会愿意增重100磅（约91斤）并至少保持一年？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "10万ドルもらえるなら、18キロ体重を増やして、3年間そのままでいてもいいですか？いくらもらえば、45キロ増やして少なくとも1年間そのままでいていいですか？",
 		"note": [
-			""
+			"増やす。ふやす。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "For $100,000, would you put on 40 pounds and keep it on for 3 years? How much money, if any, would induce you to put on 100 pounds for at least a year?",
 		"note": [
-			""
+			"pounds /paʊndz/ 英镑。磅。",
+			"induce /ɪnˈdjuːs/ 引诱，引起。"
 		]
 	}
 }
