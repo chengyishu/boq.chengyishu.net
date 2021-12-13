@@ -1,22 +1,33 @@
 {
 	"qid": 13,
-	"date": "0000-00-00",
+	"date": "2021-12-13",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果和你的一生挚爱在一起的方式只有一种，那就是第二天醒来，你们两个人会突然掌握一门陌生的外语，并在一周内永远忘记你的母语，你的朋友和祖国的文化都将变得遥不可及。你愿意吗？如果愿意，你想要学会哪门外语，为什么？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "明日の朝起きたらあなたと恋人の母国語がまったく知らない外国語に変わり、1週間以内にいま話している言葉をすべて忘れ、これまでの友人や文化を捨てなければならない —— それが愛する人と一緒にいられる唯一の手段だとしたらどうしますか？もし、それを受け入れるなら、どの国の言葉がいいですか？それはなぜですか？",
 		"note": [
-			""
+			"母国語。ぼこくご。母語。ぼご。",
+			"まったく（全く）。",
+			"外国語。がいこくご。",
+			"すべて（全て）。",
+			"唯一。ゆいつ。",
+			"手段。しゅだん。",
+			"受け入れる。うけいれる。",
+			"国。くに。",
+			"言葉。ことば。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "If it were the only way you could remain with the love of your life, would you be willing for both of you to wake up tomorrow as native speakers of an unfamiliar foreign language, knowing that within a week you'd permanently forget the languages you now speak and largely be cut off from your friends and culture? If so, what new language would you want to speak, and why?",
 		"note": [
-			""
+			"remain /rɪˈmeɪn/ 保持不变，保持原状。",
+			"willing /ˈwɪlɪŋ/ 愿意的，乐意的，心甘情愿的。",
+			"permanently /ˈpɜːmənəntli/ 永久地。",
+			"largely /ˈlɑːdʒli/ 在很大程度上。"
 		]
 	}
 }
