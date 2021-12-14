@@ -1,22 +1,34 @@
 {
 	"qid": 14,
-	"date": "0000-00-00",
+	"date": "2021-12-14",
 	"zh": {
-		"content": "待续 ...",
+		"content": "如果你的未婚夫/未婚妻因遭遇车祸而下身瘫痪，你会解除婚约吗？如果你的答案是否定的，那么如果对方四肢瘫痪，你会解除婚约吗？<br>如果你知道你的未婚夫/未婚妻很可能在五十岁时患上老年痴呆症，你会怎么做？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "婚約者が自動車事故に遭い、もう歩くことができなくなってしまったら、婚約を解消しますか？解消しないという人は、婚約者の両手両足が不自由になった場合も考えは変わりませんか？<br>結婚しようとしている相手が、50歳になるまでにアルツハイマー型認知症を発症する可能性があるとわかったらどうしますか？",
 		"note": [
-			""
+			"婚約者。こんやくしゃ。",
+			"遭う。あう。",
+			"解消。かいしょう。",
+			"両手。りょうて①。",
+			"両足。りょうあし。",
+			"アルツハイマー型認知症。アルツハイマーがたにんちしょう。",
+			"発症。はっしょう。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "If the person you were engaged to was in a car crash and became a paraplegic, would you back out of the marriage? If not, what if they became a quadriplegic?<br>What if you found that the person you planned to marry would likely get Alzheimer's by his or her 50th birthday?",
 		"note": [
-			""
+			"be engaged to /bi: enˈgeɪdʒd tu:/ 与...订婚。",
+			"crash /kræʃ/ 碰撞，撞毁，崩溃。",
+			"paraplegic /ˌpærəˈpliːdʒɪk/ 截瘫患者。",
+			"back out (of n.) /bæk aʊt ɔv/ 不遵守（诺言、合约等），打退堂鼓。",
+			"marriage /ˈmærɪdʒ/ 婚姻。",
+			"quadriplegic /ˌkwɒdrɪˈpli:dʒɪk/ 四肢瘫痪者。",
+			"Alzheimer /ˈæltsˌhaɪmə/ 阿尔茨海默症（AD）。老年痴呆症。"
 		]
 	}
 }
