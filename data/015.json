@@ -1,22 +1,27 @@
 {
 	"qid": 15,
-	"date": "0000-00-00",
+	"date": "2021-12-15",
 	"zh": {
-		"content": "待续 ...",
+		"content": "你想出名吗？如果想，你希望因什么出名？如果你知道出名之后在几年内就会失去现在所有的朋友，而且再也无法交到真正的朋友，你也愿意吗？",
 		"note": [
 			""
 		]
 	},
 	"ja": {
-		"content": "つづく ...",
+		"content": "有名になりたいですか？なりたいなら、どんなことをしてですか？有名になったら、いまの友人をすべて失ったうえに、新しい有意義な人間関係を築けないとしたらどうしますか？",
 		"note": [
-			""
+			"有名。ゆうめい。",
+			"有意義。ゆういぎ。",
+			"人間関係。にんげんかんけい。",
+			"築く。きずく。"
 		]
 	},
 	"en": {
-		"content": "to be continued ...",
+		"content": "Would you like to be famous? If so, for what? What if you knew it meant that within a few years you'd lose all your current friends and never develop new relationships that were as meaningful?",
 		"note": [
-			""
+			"famous /ˈfeɪməs/ 有名的。",
+			"meant /ment/ 意味着（mean的过去式）。",
+			"meaningful /ˈmi:nɪŋfl/ 有意义的。"
 		]
 	}
 }
