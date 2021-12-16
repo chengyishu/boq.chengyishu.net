@@ -24,7 +24,7 @@ $(function () {
             // 有问题编号, 显示内容
             $('title').text('No.' + qid + ' | ' + $('title').text());
             $.ajax({
-                url: '/data/' + qid.padStart(3, '0') + '.json',
+                url: '/data/p' + getPageByQid(qid) + '/' + qid.padStart(3, '0') + '.json',
                 type: 'get',
                 dataType: 'json',
                 success: function (question) {
@@ -74,12 +74,17 @@ $(function () {
             location.href = '/';
         } else {
             // 无问题编号, 显示主页
+            // 获取页码
+            var pn = params.get('p');
+            if (!pn) {
+                pn = 1;
+            }
             $.ajax({
-                url: '/data/all/' + lang + '.json',
+                url: '/data/p' + pn + '/all/' + lang + '.json',
                 type: 'get',
                 dataType: 'json',
                 success: function (data) {
-                    $('main').append('<ul id="all" class="list-group"></ul>');
+                    $('main').append('<ul id="all" class="list-group mb-3"></ul>');
                     for (question of data) {
                         // 使用模板
                         var template = '<a href="?q={{qid}}" class="list-group-item list-group-item-action"><span class="badge bg-dark">{{qid}}</span> <span class="{{lang}}">{{content}}</span> <span class="{{lang}} date">- {{date}}</span></a>';
@@ -91,6 +96,14 @@ $(function () {
                         // 追加内容
                         $('#all').append(html);
                     }
+                    // 显示分页
+                    showPager(pn);
+                },
+                error: function (data) {
+                    // 错误信息
+                    $('main').html(data.responseText);
+                    $('main').append('<pre>' + data.status + ' ' + data.statusText + '</pre>');
+                    console.log(data);
                 }
             });
         }
@@ -156,4 +169,18 @@ function formatNote(raw) {
         }
     }
     return note;
+}
+
+// 根据问题编号获取所在页码
+function getPageByQid(qid) {
+    return Math.floor((qid - 1) / 30) + 1;
+}
+
+// 显示分页
+function showPager(pn) {
+    var template = '<div class="d-flex justify-content-center"><div class="pagination pagination-sm en mb-3"><div class="page-item pn1"><a class="page-link"href="/?p=1">1~30</a></div><div class="page-item pn2"><a class="page-link"href="/?p=2">31~60</a></div><div class="page-item pn3"><a class="page-link"href="/?p=3">61~90</a></div><div class="page-item pn4"><a class="page-link"href="/?p=4">91~120</a></div><div class="page-item pn5"><a class="page-link"href="/?p=5">121~150</a></div><div class="page-item pn6"><a class="page-link"href="/?p=6">151~180</a></div><div class="page-item pn7"><a class="page-link"href="/?p=7">181~210</a></div><div class="page-item pn8"><a class="page-link"href="/?p=8">211~240</a></div><div class="page-item pn9"><a class="page-link"href="/?p=9">241~270</a></div><div class="page-item pn10"><a class="page-link"href="/?p=10">271~291</a></div></div></div>';
+    var html = template;
+    $('main').prepend(html);
+    $('main').append(html);
+    $('.pn' + pn).addClass('active');
 }

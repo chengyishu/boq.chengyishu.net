@@ -109,3 +109,22 @@ pre {
     font-weight: bold;
     z-index: 100;
 }
+
+/* 分页 */
+.pagination {
+    overflow-y: hidden;
+}
+
+.page-item.active .page-link {
+    font-weight: bold;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.page-item .page-link {
+    color: #212529;
+}
